@@ -30,7 +30,7 @@ test:
     - pytest
   source_files:
     - tests/*
-  command:
+  commands:
     - py.test
 
 about:
