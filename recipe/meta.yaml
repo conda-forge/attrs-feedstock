@@ -28,7 +28,7 @@ requirements:
 
 test:
   imports:
-    - attrs
+    - attr
 
 about:
   home: https://attrs.readthedocs.io/en/stable/
