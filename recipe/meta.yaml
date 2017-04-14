@@ -26,12 +26,8 @@ requirements:
     - hypothesis
 
 test:
-  requires:
-    - pytest
-  source_files:
-    - tests/*
-  commands:
-    - py.test
+  imports:
+    - attrs
 
 about:
   home: https://attrs.readthedocs.io/en/stable/
