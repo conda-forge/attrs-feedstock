@@ -1,6 +1,6 @@
 {% set name = "attrs" %}
-{% set version = "16.3.0" %}
-{% set sha256 = "80203177723e36f3bbe15aa8553da6e80d47bfe53647220ccaa9ad7a5e473ccc" %}
+{% set version = "17.2.0" %}
+{% set sha256 = "5d4d1b99f94d69338f485984127e4473b3ab9e20f43821b0e546cc3b2302fd11" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -53,3 +53,4 @@ extra:
   recipe-maintainers:
     - CJ-Wright
     - licode
+    - nicoddemus
