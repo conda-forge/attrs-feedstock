@@ -12,7 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  noarch: python
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -21,12 +22,13 @@ requirements:
     - setuptools
   run:
     - python
-    - zope
-    - zope.interface
-    - pympler
-    - hypothesis
 
 test:
+  requires:
+    - hypothesis
+    - zope
+    - zope.interface
+    - pympler    
   imports:
     - attr
 
@@ -54,3 +56,4 @@ extra:
     - CJ-Wright
     - licode
     - nicoddemus
+    - jochym
