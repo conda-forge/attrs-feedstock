@@ -22,13 +22,13 @@ requirements:
     - setuptools
   run:
     - python
-    - zope
-    - zope.interface
-    - pympler
 
 test:
   requires:
     - hypothesis
+    - zope
+    - zope.interface
+    - pympler    
   imports:
     - attr
 
