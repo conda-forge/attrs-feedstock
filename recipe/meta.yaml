@@ -24,9 +24,10 @@ requirements:
     - zope
     - zope.interface
     - pympler
-    - hypothesis
 
 test:
+  requires:
+    - hypothesis
   imports:
     - attr
 
