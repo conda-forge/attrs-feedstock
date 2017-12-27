@@ -13,13 +13,14 @@ source:
 
 build:
   noarch: python
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1
+  script: python setup.py bdist_wheel --universal;python -m wheel install --force dist/*.whl
 
 requirements:
   build:
     - python
     - setuptools
+    - wheel
   run:
     - python
 
