@@ -28,7 +28,7 @@ test:
     - hypothesis
     - zope
     - zope.interface
-    - pympler    
+    - pympler
   imports:
     - attr
 
