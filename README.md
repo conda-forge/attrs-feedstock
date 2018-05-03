@@ -20,12 +20,15 @@ attributes on that class:
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/attrs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/attrs-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/attrs-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/attrs-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/attrs/badges/version.svg)](https://anaconda.org/conda-forge/attrs)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/attrs/badges/downloads.svg)](https://anaconda.org/conda-forge/attrs)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-attrs-green.svg)](https://anaconda.org/conda-forge/attrs) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/attrs.svg)](https://anaconda.org/conda-forge/attrs) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/attrs.svg)](https://anaconda.org/conda-forge/attrs) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/attrs.svg)](https://anaconda.org/conda-forge/attrs) |
 
 Installing attrs
 ================
