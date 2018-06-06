@@ -13,23 +13,25 @@ source:
 
 build:
   noarch: python
-  number: 0
-  script: python setup.py bdist_wheel --universal;python -m wheel install --force dist/*.whl
+  number: 1
+  script: python -m pip install . --no-deps --ignore-installed
 
 requirements:
   build:
+    - pip
     - python
     - setuptools
-    - wheel
   run:
     - python
 
 test:
   requires:
+    - coverage
     - hypothesis
+    - pympler
+    - six
     - zope
     - zope.interface
-    - pympler
   imports:
     - attr
 
