@@ -1,6 +1,6 @@
 {% set name = "attrs" %}
-{% set version = "19.3.0" %}
-{% set sha256 = "f7b7ce16570fe9965acd6d30101a28f62fb4a7f9e926b3bbc9b61f8b04247e72" %}
+{% set version = "20.1.0" %}
+{% set sha256 = "0ef97238856430dcf9228e07f316aefc17e8939fc8507e18c6501b761ef1a42a" %}
 
 package:
   name: {{ name|lower }}
@@ -40,9 +40,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "attrs is the Python package that will bring back the joy of
-  writing classes by relieving you from the drudgery of implementing object
-  protocols (aka dunder methods)."
+  summary: attrs is the Python package that will bring back the joy of writing classes by relieving you from the drudgery of implementing object protocols (aka dunder methods).
 
   description: |
     attrs is the Python package that will bring back the joy of writing
