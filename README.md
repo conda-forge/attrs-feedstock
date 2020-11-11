@@ -5,9 +5,13 @@ Home: https://attrs.readthedocs.io/en/stable/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/attrs-feedstock/blob/master/LICENSE.txt)
 
 Summary: attrs is the Python package that will bring back the joy of writing classes by relieving you from the drudgery of implementing object protocols (aka dunder methods).
+
+Development: https://github.com/python-attrs/attrs
+
+Documentation: https://attrs.readthedocs.io/en/stable/
 
 attrs is the Python package that will bring back the joy of writing
 classes by relieving you from the drudgery of implementing object
