@@ -1,6 +1,6 @@
 {% set name = "attrs" %}
-{% set version = "21.2.0" %}
-{% set sha256 = "ef6aaac3ca6cd92904cdd0d83f629a15f18053ec84e6432106f7a4d04ae4f5fb" %}
+{% set version = "21.4.0" %}
+{% set sha256 = "626ba8234211db98e869df76230a137c4c40a12d72445c45d5f5b716f076e2fd" %}
 
 package:
   name: {{ name|lower }}
@@ -30,8 +30,6 @@ test:
     - hypothesis
     - pympler
     - six
-    - zope
-    - zope.interface
   imports:
     - attr
 
