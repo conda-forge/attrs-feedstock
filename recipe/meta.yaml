@@ -30,8 +30,6 @@ test:
     - hypothesis
     - pympler
     - six
-#     - zope
-#     - zope.interface
   imports:
     - attr
 
