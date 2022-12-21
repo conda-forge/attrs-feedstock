@@ -1,6 +1,6 @@
 {% set name = "attrs" %}
-{% set version = "22.1.0" %}
-{% set sha256 = "29adc2665447e5191d0e7c568fde78b21f9672d344281d0c6e1ab085429b22b6" %}
+{% set version = "22.2.0" %}
+{% set sha256 = "c9227bfc2f01993c03f68db37d1d15c9690188323c067c641f1a35ca58185f99" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install . --no-deps --ignore-installed
 
 requirements:
