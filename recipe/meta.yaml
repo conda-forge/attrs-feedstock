@@ -21,6 +21,7 @@ requirements:
     - pip
     - python >=3.5
     - setuptools
+    - hatchling
   run:
     - python >=3.5
 
@@ -30,7 +31,6 @@ test:
     - hypothesis
     - pympler
     - six
-    - hatchling
   imports:
     - attr
 
