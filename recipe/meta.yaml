@@ -30,6 +30,7 @@ test:
     - hypothesis
     - pympler
     - six
+    - hatchling
   imports:
     - attr
 
