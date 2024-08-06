@@ -1,6 +1,6 @@
 {% set name = "attrs" %}
-{% set version = "24.1.0" %}
-{% set sha256 = "adbdec84af72d38be7628e353a09b6a6790d15cd71819f6e9d7b0faa8a125745" %}
+{% set version = "24.2.0" %}
+{% set sha256 = "5cfb1b9148b5b086569baec03f20d7b6bf3bcacc9a42bebf87ffaaca362f6346" %}
 
 package:
   name: {{ name|lower }}
