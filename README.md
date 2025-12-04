@@ -20,7 +20,6 @@ concise and correct software without slowing down your code. For that, it
 gives you a class decorator and a way to declaratively define the
 attributes on that class:
 
-
 Current build status
 ====================
 
